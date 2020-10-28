@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" author="Sergio Bejarano Arroyo - 1º-DAW (LMSGI)">
+    <title>Ejemplo con Formularios</title>
+</head>
+<body>
+    <h1 style="text-align: center;">HOJA DE INSCRIPCIÓN</h1>
+    <h1 style="text-align: center;">EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+    <form>
+        <fieldset style="background-color: #b9b9b9;">
+            <legend style="border: 1px solid #000000; background-color: #ffffff;">DATOS PERSONALES</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="nombre">Nombre:</label>
+                    </td>
+                    <td>
+                        <label for="apellidos">Apellidos:</label>
+                    </td>
+                    <td>
+                        <label for="dni">DNI:</label>
+                    </td>
+                    <tr>
+                        <td>
+                            <input type="text" name="nombre" size="30"/>
+                        </td>
+                        <td>
+                            <input type="text" name="apellidos" size="30"/>
+                        </td>
+                        <td>
+                            <input type="text" name="dni" size="30" minlength="9"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="localidad_nacimiento">Localidad de Nacimiento:</label>
+                        </td>
+                        <td>
+                            <label for="provincia">Provincia:</label>
+                        </td>
+                        <td>
+                            <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" name="localidad_nacimiento" size="30"/>
+                        </td>
+                        <td>
+                            <select name="provincia">
+                                <option>Almería</option>
+                                <option>Cádiz</option>
+                                <option>Córdoba</option>
+                                <option>Granada</option>
+                                <option>Huelva</option>
+                                <option>Jaén</option>
+                                <option>Málaga</option>
+                                <option>Sevilla</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="date" name="fecha_nacimiento"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="direccion">Dirección:</label>
+                        </td>
+                        <td>
+                            <label for="codigo_postal">Código Postal:</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="text" name="direccion" size="65">
+                        </td>
+                        <td>
+                            <input type="text" name="codigo_postal" minlength="5" size="30">
+                        </td>
+                    </tr>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="background-color: #eeb69d;">
+            <legend style="border: 1px solid #000000; background-color: #ffffff;">FORMA DE ACCESO</legend>
+            <ul style="list-style-type: none;">
+                <li>
+                    <input type="radio" name="forma_acceso" value="directo"/>Directo.
+                    <ul style="list-style-type: none;">
+                        <li>
+                            <input type="radio" name="etapa" value="bachillerato_logse"/>Bachillerato LOGSE. Modalidad
+                            <input type="text" size="30" name="bachillerato_logse"/>
+                        </li>
+                        <li>
+                            <input type="radio" name="etapa" value="bachillerato_experimental"/>Bachillerato Expermiental
+                        </li>
+                        <li>
+                            <input type="radio" name="etapa" value="cou_opcion"/>COU. Opción
+                            <input type="text" name="cou_opcion" size="30"/>
+                        </li>
+                        <li>
+                            <input type="radio" name="etapa" value="fp2"/>FP2
+                        </li>
+                        <li>
+                            <input type="radio" name="etapa" value="otros"/>Otros (especifique)
+                            <input type="text" name="otros" size="30"/>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <input type="radio" name="forma_acceso" value="prueba_acceso"/>Prueba libre.
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset style="background-color: #fc7878;">
+            <legend style="border: 1px solid #000000; background-color: #ffffff;">DOCUMENTOS ADJUNTOS</legend>
+            <table>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="documentos" value="fotocopia_dni"/>Fotocopia DNI
+                    </td>    
+                    <td>
+                        <input type="checkbox" name="documentos" value="certificado_academico"/>Certificado Académico    
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" name="documentos" value="otros"/>Otros documentos (especifique)
+                        <input type="text" name="documentos" size="65"/>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar Solicitud"/>
+        </p>
+    </form>
+</body>
+</html>
