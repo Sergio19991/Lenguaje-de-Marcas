@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" autor="Sergio Bejarano Arroyo">
+    <title>Ejercicio 4</title>
+    <style>
+        table, td, th{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <caption><h3>TRES EN RAYA</h3></caption>
+            <tr>
+                <td></td>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><img src="img/cruz.png" height="75px"></td>
+                <td></td>
+                <td><img src="img/raya.png" height="75px"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <td><img src="img/cruz.png" height="75px"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><img src="img/raya.png" height="75px"></td>
+                <td></td>
+                <td><img src="img/cruz.png" height="75px"></td>
+            </tr>
+        </table>
+        <table style="border: inset 0pt;">
+            <tr>
+               <td colspan="2" style="border: inset 0pt;">Turno para jugador Uno</td>
+            </tr>
+            <tr>
+                <td style="border: inset 0pt;">
+                    <label for="fila">Fila</label>
+                </td>
+                <td style="border: inset 0pt;">
+                   <input type="number" name="fila"/> 
+                </td>
+            </tr>
+            <tr>
+                <td style="border: inset 0pt;">
+                    <label for="columna">Columna</label>
+                </td>
+                <td style="border: inset 0pt;">
+                    <input type="number" name="columna"/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="border: inset 0pt; text-align: center;">
+                    <input type="submit" value="Enviar"/>
+                </td>
+            </tr>
+        </table>
+</body>
+</html>
