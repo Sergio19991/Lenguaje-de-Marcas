@@ -10,95 +10,99 @@
 <body>
     <form>
         <table>
-            <tr>
-                <td colspan="2">
-                    <legend style="background-color: #91d1da; text-align: center;">IES Alixar Login</legend>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="usuario">Usuario:</label>
-                </td>
-                <td>
-                    <input type="text" name="usuario" size="30" />
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="password">Password:</label>
-                </td>
-                <td>
-                    <input type="password" name="password" size="30" />
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
-                </td>
-                <td>
-                    <input type="date" name="fehca_nacimiento" size="30" />
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="curso_matriculacion">Curso de Matriculación:</label>
-                </td>
-                <td>
-                    <select name="curso_matriculacion">
-                        <option>Primero DAW1</option>
-                        <option>Segundo DAW1</option>
-                        <option>Primero DAW2</option>
-                        <option>Segundo DAW2</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td rowspan="4">
-                    <label for="role">Role:</label>
-                </td>
-                <td>
-                    <input type="radio" name="role" value="estudiante" />Estudiante
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="radio" name="role" value="profesor" />Profesor
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="radio" name="role" value="apoyo" />Apoyo
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="radio" name="role" value="staff" />Staff
-                </td>
-            </tr>
-            <tr>
-                <td rowspan="3">
-                    <label for="forma_comunicacion">Forma de Comunicación:</label>
-                </td>
-                <td>
-                    <input type="checkbox" name="mail" />Mail
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="checkbox" name="telefono" />Teléfono
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="checkbox" name="correo_ordinario" />Correo ordinario
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="text-align: center;">
-                    <input type="submit" value="Enviar" />
-                    <input type="reset" value="Borrar" />
-                </td>
-            </tr>
+            <thead>
+                <tr>
+                    <th colspan="2" style="background-color: #91d1da; text-align: center;">
+                        IES Alixar Login
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="usuario">Usuario:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="usuario" size="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" id="password" size="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                    </td>
+                    <td>
+                        <input type="date" id="fehca_nacimiento" size="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="curso_matriculacion">Curso de Matriculación:</label>
+                    </td>
+                    <td>
+                        <select id="curso_matriculacion">
+                            <option value="primero_daw1">DAW1</option>
+                            <option value="segundo_daw1">DAW2</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="4">
+                        <label for="role">Role:</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="opcion_role" value="estudiante" />Estudiante
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="opcion_role" value="profesor" />Profesor
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="opcion_role" value="apoyo" />Apoyo
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="opcion_role" value="staff" />Staff
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="3">
+                        <label for="forma_comunicacion">Forma de Comunicación:</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="forma_comunicacion" />Mail
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="forma_comunicacion" />Teléfono
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="forma_comunicacion" />Correo ordinario
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="2" style="text-align: center;">
+                        <input type="submit" value="Enviar" />
+                        <input type="reset" value="Borrar" />
+                    </th>
+                </tr>
+            </tfoot>
         </table>
     </form>
 </body>
