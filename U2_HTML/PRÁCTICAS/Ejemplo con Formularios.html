@@ -12,6 +12,7 @@
     <h1 style="text-align: center;">HOJA DE INSCRIPCIÓN</h1>
     <h1 style="text-align: center;">EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
     <form>
+        <!-- DATOS PERSONALES: -->
         <fieldset style="background-color: #b9b9b9;">
             <legend style="border: 1px solid #000000; background-color: #ffffff;">DATOS PERSONALES</legend>
             <table>
@@ -27,13 +28,13 @@
                     </td>
                 <tr>
                     <td>
-                        <input type="text" name="nombre" size="30" />
+                        <input type="text" id="nombre" size="30" />
                     </td>
                     <td>
-                        <input type="text" name="apellidos" size="30" />
+                        <input type="text" id="apellidos" size="30" />
                     </td>
                     <td>
-                        <input type="text" name="dni" size="30" minlength="9" />
+                        <input type="text" id="dni" size="30" minlength="9" />
                     </td>
                 </tr>
                 <tr>
@@ -49,22 +50,22 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="text" name="localidad_nacimiento" size="30" />
+                        <input type="text" id="localidad_nacimiento" size="30" />
                     </td>
                     <td>
-                        <select name="provincia">
-                            <option>Almería</option>
-                            <option>Cádiz</option>
-                            <option>Córdoba</option>
-                            <option>Granada</option>
-                            <option>Huelva</option>
-                            <option>Jaén</option>
-                            <option>Málaga</option>
-                            <option>Sevilla</option>
+                        <select id="provincia">
+                            <option value="almeria">Almería</option>
+                            <option value="cadiz">Cádiz</option>
+                            <option value="cordoba">Córdoba</option>
+                            <option value="granada">Granada</option>
+                            <option value="huelva">Huelva</option>
+                            <option value="jaen">Jaén</option>
+                            <option value="malaga">Málaga</option>
+                            <option value="sevilla">Sevilla</option>
                         </select>
                     </td>
                     <td>
-                        <input type="date" name="fecha_nacimiento" />
+                        <input type="date" id="fecha_nacimiento" />
                     </td>
                 </tr>
                 <tr>
@@ -77,15 +78,18 @@
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <input type="text" name="direccion" size="65">
+                        <input type="text" id="direccion" size="65">
                     </td>
                     <td>
-                        <input type="text" name="codigo_postal" minlength="5" size="30">
+                        <input type="text" id="codigo_postal" minlength="5" size="30">
                     </td>
                 </tr>
                 </tr>
             </table>
         </fieldset>
+
+        <!-- FORMA DE ACCESO: -->
+
         <fieldset style="background-color: #eeb69d;">
             <legend style="border: 1px solid #000000; background-color: #ffffff;">FORMA DE ACCESO</legend>
             <ul style="list-style-type: none;">
@@ -97,8 +101,7 @@
                             <input type="text" size="30" name="bachillerato_logse" />
                         </li>
                         <li>
-                            <input type="radio" name="etapa" value="bachillerato_experimental" />Bachillerato
-                            Expermiental
+                            <input type="radio" name="etapa" value="bachillerato_experimental" />Bachillerato Expermiental
                         </li>
                         <li>
                             <input type="radio" name="etapa" value="cou_opcion" />COU. Opción
@@ -118,6 +121,8 @@
                 </li>
             </ul>
         </fieldset>
+        
+        <!-- DOCUMENTOS ADJUNTOS: -->
         <fieldset style="background-color: #fc7878;">
             <legend style="border: 1px solid #000000; background-color: #ffffff;">DOCUMENTOS ADJUNTOS</legend>
             <table>
