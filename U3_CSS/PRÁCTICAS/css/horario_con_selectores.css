@@ -1,33 +1,73 @@
+    /** Todas las Casillas de la Tabla estarán totalemente unidas: **/
  table {
      border-collapse: collapse;
  }
 
+   /** Todas las Filas ("td") y Títulos ("th") tendrán un Borde sólido con atamaño de 1px y de color negro: **/
  td, th {
-     border: 1px solid black;
+     border: 2px solid black;
  }
  
+    /** Se indica que todos los th que estén dentro de los thead tengan un color de letra en blanco y un fondo de color verde: **/
  thead th, thead td {
     color: white;
     background-color: green;
 }
 
-.bd {
-    background-color: chartreuse;
+   /** Se inidica el color de las asignaturas, cada una con su respectica clase (cada una tiene un color distinto): **/
+.badat {
+    background-color: #ffb584;
 }
 
-#break {
+.fol {
+    background-color: #9cca82;
+}
+
+.siinf {
+    background-color: #8b3333;
+    text-align: center;
+}
+
+.lmsgi {
+    background-color: #c2cef3;
+}
+
+.endes {
+    background-color: #ff2020;
+}
+
+.progr {
+    background-color: #ffffff;
+}
+
+   /** El elemento con el id recreo (en este caso RECRÉO), será de color coral, alinieación en el centro, texto en negrita y 1rem (cuánto se multiplicará el tamaño inicial del elemento indicado): **/
+#recreo {
     background-color: coral;
     text-align: center;
     font-weight: bolder;
     padding: 1rem;
 }
 
-.bd, .lm {
+   /** Estas clases tendrán un padding de 0.5rem **/
+.bdat, .fol, .siinf, .lmsgi, .endes, .progr {
     padding: 0.5rem;
 }
 
+   /** Se indica que el primer hijo de td, y que td está dentro del tbody, tendrán las siguientes especificaciones: **/
 tbody td:nth-child(1) {
     background-color: cyan;
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+   /** Esta casilla irá en blano: **/
+.casilla_vacia {
+    background-color: #ffffff;
+    border: 0px;
+}
+
+   /** Aplicando estilo al título de la tabla: **/
+.titulo_tabla {
+    font-weight: bolder;
+    font-size: 25px;
 }
