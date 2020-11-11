@@ -1,0 +1,33 @@
+ table {
+     border-collapse: collapse;
+ }
+
+ td, th {
+     border: 1px solid black;
+ }
+ 
+ thead th, thead td {
+    color: white;
+    background-color: green;
+}
+
+.bd {
+    background-color: chartreuse;
+}
+
+#break {
+    background-color: coral;
+    text-align: center;
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+.bd, .lm {
+    padding: 0.5rem;
+}
+
+tbody td:nth-child(1) {
+    background-color: cyan;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario con Selectores</title>
+    <link href="css/horario_con_selectores.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <table>
+        <caption>HORARIO 1ºDAW (Turno de Mañana)</caption>
+        <thead>
+            <tr>
+                <td></td>
+                <td>Lunes:</td>
+                <td>Martes:</td>
+                <td>Miércoles:</td>
+                <td>Jueves:</td>
+                <td>Viernes:</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>08-00h - 09:00h</td>
+                <td rowspan="3" class="bd">BADAT</td>
+                <td>FOL</td>
+                <td rowspan="3" colspan="2">SIINF</td>
+                <td>FOL</td>
+            </tr>
+            <tr>
+                <td>09:00h - 10:00h</td>
+                <td rowspan="2" class="lm">LMSGI</td>
+                <td rowspan="2" class="bd">BADAT</td>
+            </tr>
+            <tr>
+                <td>10:00h - 11:00h</td>
+            </tr>
+            <tr>
+                <td>11:00h - 11:30h</td>
+                <td colspan="5" id="break">RECREO</td>
+            </tr>
+            <tr>
+                <td>11:30h - 12:30h</td>
+                <td rowspan="2">ENDES</td>
+                <td rowspan="3">PROGR</td>
+                <td>ENDES</td>
+                <td rowspan="3">PROGR</td>
+                <td class="bd">BADAT</td>
+            </tr>
+            <tr>
+                <td>12:30h - 13:30h</td>
+                <td rowspan="2" class="lm">LMSGI</td>
+                <td rowspan="2">PROGR</td>
+            </tr>
+            <tr>
+                <td>13:30h - 14:30h</td>
+                <td>FOL</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
