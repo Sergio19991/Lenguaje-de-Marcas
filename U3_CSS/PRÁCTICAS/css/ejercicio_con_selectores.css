@@ -1,0 +1,51 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1.5px solid black;
+    text-align: center;
+    font-weight: bolder;
+}
+
+img {
+    height: 80px;
+}
+
+.imagen {
+    background-color: blue;
+}
+
+.capacidad {
+    background-color: grey;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+table>tbody>tr>td>ul>li {
+    color: red;
+}
+
+#horas_5 {
+    background-color: yellow;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.propiedad {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: red;
+    color: white;
+}
+
+.fondo_azul {
+    background-color: blue;
+}
+
+#pantalla {
+    background-color: red;
+    color: white;
+}
