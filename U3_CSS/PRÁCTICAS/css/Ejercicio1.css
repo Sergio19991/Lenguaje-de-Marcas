@@ -1,0 +1,60 @@
+table {
+    border-collapse: collapse;
+}
+
+#titulo {
+    text-align: center;
+    background-color: yellow;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.links {
+    vertical-align: top;   /* Alineación vertical de tods los links. */
+}
+
+#diario {
+    border-left: 2px solid green;
+}
+
+ul {
+    list-style: none;
+}
+
+#tabla_punteada {
+    float: right;   /* Alineación de la tabla a la izquierda por completo. */
+    border-width: 2px;   /* Especifico el grosor del borde. */
+    border-color: green;   /* Color del borde en verde. */
+    border-style: dashed;   /* Estilo de borde punteado. */
+    text-align: right;  /* Alinieación del texto a la izquierda. */
+    padding: 10px;   /* Separación de del borde externo al contenido del la tabla seleccionada.*/
+}
+
+#correo_electronico {
+    text-align: center;
+}
+
+.fechas {
+    font-weight: bolder;
+}
+
+.contenido, .fechas {
+    font-size: 20px;
+    padding-right: 400px;
+    padding-left: 3px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#lista_izquierda {
+    padding-left: 0%;
+    text-align: left;
+    padding-right: 200px;
+}
+
+#lista_derecha, .lista_derecha {
+    padding-right: 0%;
+    text-align: right;
+}
