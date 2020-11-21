@@ -1,0 +1,31 @@
+table {
+    border: 1px solid #000000;
+    width: 17%;
+}
+
+.titulo {
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: rgb(177, 174, 174);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(24, 24, 138);
+    margin: 0px;
+}
+
+#titutlo {
+    padding-bottom: 20px;
+}
+
+.secciones {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(136, 88, 88, 0.932);
+    padding-top: 40px;
+}
+
+.fechas {
+    font-weight: bolder;
+    vertical-align: top;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
