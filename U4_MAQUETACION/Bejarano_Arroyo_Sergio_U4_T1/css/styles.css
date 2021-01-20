@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+.contenedorPrincipal {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 6%;
+}
+
+.menuSuperior {
+    display: inline-block;
+    width: 90%;
+    height: 90%;
+    background-color: #94a87d;
+}
+
+.opcionMenuSuperior {
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+} 
+
+.menuPrincipal {
+    width: 21%;
+    background-color: #cecaca;
+    float: left;;
+}
+
+.imagenCentral {
+    width: 59%;
+    float: left;
+}
+
+.calendario {
+    width: 20%;
+    float: left;
+    background-color: #cecaca;
+    margin-bottom: 12%;
+    text-align: center;
+    padding-bottom: 30px
+}
+
+.opcionesCategorias {
+    position: relative;
+    background-color: #cecaca;
+    color: #a1eb4e;
+}
+
+.opcionesCategorias ul li span {
+    color: black;
+}
+
+.opcionesCategorias img {
+    position: absolute;
+    width: 7%;
+    margin-top: 6%;
+margin-left: 92%;
+}
+
+.pie {
+    background-color: rgb(53, 53, 53);
+    margin-top: 31%;
+    text-align: center;
+    color: white;
+}
+
+.categorias {
+    background-color: #cecaca;
+}
