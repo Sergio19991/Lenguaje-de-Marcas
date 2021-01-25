@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+
+}
+
+.contenedorPrincipal {
+    margin: 10px auto;
+    width: 90%;
+}
+
+.cabecera {
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    border-radius: 15px 15px 0px 0px;
+    -webkit-border-radius: 15px 15px 0px 0px;
+    -moz-border-radius: 15px 15px 0px 0px;
+    -ms-border-radius: 15px 15px 0px 0px;
+    -o-border-radius: 15px 15px 0px 0px;
+}
+
+.titulo {
+    width: 50%;
+    display: inline-block;
+    padding-left: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.login {
+    width: 49%;
+    align-self: flex-end;
+    text-align: right;
+    padding-bottom: 1.5%;
+}
+
+.menuSuperior {
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    background-color: #647d5b;
+    border-bottom: 4px solid #405741;
+}
+
+.opcionMenuSuperior {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.menuSuperior div:hover {
+    background-color: white;
+    color: black;
+}
+
+.contenidoCentral {
+    padding-top: 1%;
+    display: flex;
+    text-align: center;
+}
+
+.menuPrincipal {
+    width: 20%;
+    align-self: start;
+    background-color: #bbbbbb;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 25px;
+    border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -ms-border-radius: 15px 15px 15px 15px;
+    -o-border-radius: 15px 15px 15px 15px;
+}
+
+.menuPrincipal div h4 {
+    text-align: left;
+    padding-left: 9%;
+}
+
+.menuPrincipal div img {
+    width: 80%;
+}
+
+.categorias {
+    width: 60%;
+    align-self: start;
+}
+
+.calendario {
+    width: 20%;
+    align-self: start;
+    background-color: #bbbbbb;
+    padding-top: 1%;
+    font-size: 25px;
+    border-radius: 15px 15px 15px 15px;
+    padding-bottom: 8%;
+}
+
+.calendario div h4 {
+    text-align: left;
+    padding-left: 9%;
+}
+
+.calendario div img {
+    height: 165px;
+    width: 80%;
+}
+
+img[src="img/instituto.png"] {
+    padding: 3%;
+    width: 90%;
+}
+
+.tituloCategorias {
+    background-color: #bbbbbb;
+    width: 87%;
+    text-align: left;
+    margin-left: 7%;
+    margin-top: 3%;
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 3px solid #647d5b;
+}
+
+.opcionesCategorias {
+    margin-top: 2%;
+    width: 87%;
+    margin-left: 7%;
+    background-color: #bbbbbb;
+    border: 2px solid #647d5b;
+    border-radius: 15px 15px 15px 15px;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.opcionesCategorias img {
+    position: absolute;
+    width: 12%;
+    margin-top: 8%;
+    margin-left: 37%;
+}
+
+.opciones li {
+    list-style: none;
+    color: #67835d;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: left;
+}
+
+span {
+    color: #000000;
+}
+
+.pie {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    display: flex;
+    border-radius: 0px 0px 15px 15px;
+    -webkit-border-radius: 0px 0px 15px 15px;
+    -moz-border-radius: 0px 0px 15px 15px;
+    -ms-border-radius: 0px 0px 15px 15px;
+    -o-border-radius: 0px 0px 15px 15px;
+    display: block;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.pie p {
+    text-align: center;
+}
+
+.pie img {
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+/**  © Sergio Bejarano Arroyo. **/
