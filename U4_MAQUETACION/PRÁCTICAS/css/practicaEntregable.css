@@ -46,16 +46,13 @@ p {
 }
 
 .menuSuperior {
-    padding-bottom: 0.5%;
-    padding-top: 0.5%;
     background-color: #647d5b;
     border-bottom: 4px solid #405741;
 }
 
 .opcionMenuSuperior {
     display: inline-block;
-    margin-left: 20px;
-    padding: 5px;
+    padding: 0.5% 1%;
     color: #ffffff;
 }
 

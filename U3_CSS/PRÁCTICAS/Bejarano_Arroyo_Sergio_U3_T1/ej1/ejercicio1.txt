@@ -1,0 +1,36 @@
+body {background-color: tan}   =   Está indicando que el cuerpo de la página tenga un color de fondo "tan" (color bronceado).
+
+
+
+h1 {color:maroon; font-size:20pt}   =   Está indicando que todas las cabeceras "h1" tengan in color de letra "maroon" (color granate) y un tamaño de letra "20pt" (tamaño de 20 puntos).
+
+
+
+hr {color:navy}   =   Está indicando que todas las líneas horizontales que separan texto tengan un color "navy" (color azul marino).
+
+
+
+p {font-size:12pt; margin-left: 15px}   =   Está indicando que todos los párrafos tengan un tamaño de letra de "12pt" (tanaño de 12 puntos) y que sun margen izquierdo esté separado de otra BOX MODEL con 15px (separación de 15 píxeles).
+
+
+
+p.verse {color:maroon; margin-left: 60px}   =   Está indicado que los párrafos (elementos "p") con la etiqueta "class="verse"" tengan cun color de letra "maroon" (color granate) y que el margen izquierdo esté separado de otra BOX MODEL con 60px (separación de 60 píxeles).
+
+
+
+a:link     {color:green}   =   Está indicando que todos los links (elementos "a") con el psudoelemento "link" tengan un color "green"(color verde).
+
+
+
+a:visited  {color:yellow}   =   Está indicando que todos los links (elementos "a")  con el psudoelemento "visited" tengan un color "yellow" (color amarillo).
+
+
+
+a:hover    {color:black}   =   Está indicando que todos los links (elemento "a") con el psudoelemento "hover" tenga un color "black" (color negro).
+
+
+
+a:active   {color:blue}   =   Está indicando que todos los links (elemnto "a") con el psudoelemento "active" tenga un color "blue" (color azul).
+
+
+/* X */   =   Indica que todo lo que hay entre "/* */" es un comentario, donde la "X" podría ser cualquier cosa que escribamos. (Este no semuestra en el navegador, solo es un comantario para quien lo abra con editor).

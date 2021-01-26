@@ -1,0 +1,2 @@
+
+   ·Porque los párrafos ("p") no tienen la etiqueta "class="verse"". Y en la Hoja de Estilos está especificando el estilo a los párrafos ("p") que tengan dichya etiqueta.
