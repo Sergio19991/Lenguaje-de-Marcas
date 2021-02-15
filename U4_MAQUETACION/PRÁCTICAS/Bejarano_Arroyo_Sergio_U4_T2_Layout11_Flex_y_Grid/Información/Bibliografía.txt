@@ -1,0 +1,17 @@
+
+ · Redimensionar Imágenes = https://www.iloveimg.com/es/redimensionar-imagen
+
+ · Poner en Gris Imágenes = https://pinetools.com/es/imagen-escala-grises
+
+ · Recortar Imágenes = Paint (desde Windows 10).
+
+ · Poner Imágenes redondas en CSS = http://facilwebpro.com/imagenes-circulares-con-css/
+
+ · Ayuda para CSS = https://www.w3schools.com/css/default.asp
+
+ · Interlineado = https://uniwebsidad.com/libros/referencia-css2/line-height
+
+
+
+
+     © Sergio Bejarano Arroyo.

@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+
+}
+
+.container {
+    margin: 20px auto;
+    width: 90%;
+}
+
+div.cabecera {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+span {
+    color: green;
+}
+
+header {
+    width: 65%;
+    display: flex;
+    justify-content: start;
+}
+
+header h1 {
+    border-right: 1px solid black;
+    padding-right: 0.5rem;
+}
+
+header p {
+    padding-left: 0.5rem;
+}
+
+div.contacto {
+    width: 35%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+div.contacto img {
+    padding-right: 0.5rem;
+}
+
+p.email {
+    padding-right: 0.5rem;
+    border-right: 1px solid black;
+}
+
+div.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.menu {
+    display: flex;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    padding: 0.5rem;
+    justify-content: space-between;
+    color: white;
+}
+
+div.opcionesMenu {
+    display: flex;
+    width: 65%;
+}
+
+div.opcionesMenu p {
+    padding-left: 2rem;
+    border-right: 1px solid white;
+    padding-right: 2rem;
+}
+
+div.opcionesMenu p:hover {
+    background-color: white;
+    color: black;
+}
+
+div.cuerpo img {
+    width: 100%;
+}
+
+div.cuerpo {
+    position: relative;
+}
+
+div.solapar {
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: -350px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+}
+
+div.comentario {
+    width: 29%;
+    display: flex;
+    justify-content: start;
+    background-color: rgba(100, 97, 97, 0.57);
+    color: rgb(230, 230, 230);
+    flex-wrap: wrap;
+}
+
+div.comentario h1 {
+    font-size: 40px;
+    padding: 1rem;
+}
+
+div.comentario p {
+    font-size: 18px;
+    padding-left: 25px;
+    padding-right: 40px;
+    padding-bottom: 35px;
+    text-align: justify;
+}
+
+div.carrusel {
+    display: flex;
+    justify-content: end;
+    background-color: rgba(100, 97, 97, 0.57);
+    color: rgb(230, 230, 230);
+    align-items: flex-end;
+    margin-top: 151px;
+}
+
+div.carrusel p {
+    font-size: 25px;
+    border: rgba(100, 97, 97, 0.658) solid 1px;
+    padding: 0.5rem;
+}
+
+div.parteInferior {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.parteInferior div p {
+    font-size: 25px;
+    text-align: justify;
+}
