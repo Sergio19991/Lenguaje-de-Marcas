@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 10px auto;
+    height: 400px;
+    display: block;
+}
+
+
+
+.aRojo {
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+
+    height: 150px;
+}
+
+.bVerde {
+    background-color: green;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    height: 150px;
+}
+
+.cAzul {
+    background-color: blue;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    height: 150px;
+}
+
+.dAmarillo {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    height: 150px;
+}
+
+
+@media screen and (min-width: 576px) {
+    .aRojo {
+        float: left;
+        width: 75%;
+        height: 200px;
+    }
+
+    .bVerde {
+        float: right;
+        width: 25%;
+        height: 600px;
+    }
+
+    .cAzul {
+        height: 400px;
+        width: 38%;
+        float: left;
+    }
+
+    .dAmarillo {
+        height: 400px;
+        width: 37%;
+        float: right;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .aRojo {
+        float: right;
+        height: 400px;
+        width: 31%;
+    }
+
+    .bVerde {
+        float: left;
+        height: 400px;
+        width: 31%;
+    }
+
+    .cAzul {
+        height: 300px;
+        width: 38%;
+    }
+
+    .dAmarillo {
+        height: 100px;
+        width: 38%;
+    }
+}
+
+
+
+
+
+/* © Sergio Bejarano Arroyo */
