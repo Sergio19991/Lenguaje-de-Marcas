@@ -1,0 +1,208 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+
+}
+
+.container {
+    margin: 15px auto;
+    width: 98%;
+}
+
+header {
+    background-color: #000000;
+}
+
+header p {
+    color: #ffffff;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-left: 0.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+
+.parteCentral {
+    background-color: #e9eee4;
+    padding-bottom: 5%;
+}
+
+.titulo {
+    text-align: center;
+}
+
+#titulo {
+    font-size: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-top: 2%;
+}
+
+#subtitulo {
+    padding-top: 1%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contenidoCentral {
+    display: flex;
+    padding-top: 3%;
+    justify-content: space-between;
+}
+
+.portada {
+    width: 60%;
+}
+
+.portada p {
+    text-align: left;
+    font-style: oblique;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 26px;
+    line-height: 50px;
+}
+
+.portada img {
+    width: 93%;
+    padding-left: 3%;
+    padding-bottom: 4%;
+}
+
+.formulario {
+    background-color: #ffffff;
+    width: 40%;
+}
+
+#tituloFormulario {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 3%;
+}
+
+form {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+input[type="text"] {
+    width: 99%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+select {
+    width: 99%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+textarea {
+    width: 99%;
+    height: 180px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 35px;
+}
+
+.labels {
+    margin-bottom: 8px;
+}
+
+input,
+select {
+    margin-bottom: 25px;
+}
+
+input[type="submit"] {
+    background-color: #7e2f5d;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    border-top-width: 0px;
+    border-top-style: solid;
+    border-right-width: 0px;
+    border-right-style: solid;
+    border-left-width: 0px;
+    border-left-style: solid;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#enviar {
+    text-align: center;
+    background-color: #7e2f5d;
+    margin-right: 5px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.parteInferior {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+div.comentalista img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 200px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.comentalista {
+    margin-right: 30px;
+    width: 33.33%;
+}
+
+.comentarios {
+    font-size: 18px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3d3d3d;
+    font-style: oblique;
+}
+
+.detalles {
+    font-style: normal;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 18px;
+}
+
+
+
+
+
+/**  © Sergio Bejarano Arroyo **/
