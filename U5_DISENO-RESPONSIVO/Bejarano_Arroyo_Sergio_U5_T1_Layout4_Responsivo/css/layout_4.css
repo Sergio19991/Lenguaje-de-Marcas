@@ -1,0 +1,315 @@
+/* Formatos principales: */
+/* SMARTPHONE: */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+
+}
+
+.container {
+    margin: 20px auto;
+    width: 90%;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* Botón desplegable oculto (por defecto) al cargar la Página */
+.opcionMenu {
+    display: none;
+    padding: 0px;
+}
+
+
+/* Cabecera */
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+header p {
+    font-size: 35px;
+    font-style: oblique;
+    padding: 12px;
+    padding-left: 12%;
+}
+
+span.azul {
+    color: #1b8fb3;
+}
+
+span.gris {
+    color: #9c9c9c;
+}
+
+.iconoMenu i {
+    color: #1b8fb3;
+    font-size: 35px;
+}
+
+.opcionMenu {
+    font-size: 20px;
+    font-style: oblique;
+    color: #2b2b2b;
+    font-weight: 550;
+    padding: 0.5em;
+}
+
+
+/* Pestañas de los Números */
+main {
+    background-color: #f2f2f2;
+    border-radius: 10px 10px 10px 10px;
+    padding: 12px;
+    margin-bottom: 25px;
+}
+
+.pestanas {
+    border-radius: 10px 10px 10px 10px;
+    align-items: center;
+    color: #ffffff;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+
+/***** Forma de "bocadillo:" ******/
+.pestana1 {
+    position: relative;
+    background-color: #f07b2b;
+}
+
+.pestana1::before {
+    border: 30px solid #f07b2b;
+    border-right-color: #f07b2b;
+    border-bottom-color: #f07b2b;
+    border-left-color: #f07b2b;
+    content: '';
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    bottom: -55px;
+    right: 10%;
+}
+
+.numero {
+    font-size: 35px;
+    padding-left: 15px;
+    font-weight: 600;
+}
+
+.tituloNumero {
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.pestana2 {
+    background-color: #efaa28;
+}
+
+.pestana3 {
+    background-color: #ebd619;
+}
+
+.pestana4 {
+    background-color: #8ac022;
+}
+
+.pestana5 {
+    background-color: #5f8e00;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 20px 20px;
+    padding: 0.6em;
+}
+
+/* Parte inferior (footer) */
+.cuadrados {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+}
+
+.tituloCuadrado i {
+    font-size: 30px;
+    color: #353535;
+}
+
+.tituloCuadrado {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #4a4a4a;
+    width: 100%;
+    padding: 12px;
+}
+
+.tituloCuadrado p {
+    font-size: 25px;
+    padding-left: 15px;
+    font-style: oblique;
+}
+
+.cuadrados>p {
+    color: #4e4e4e;
+    font-style: oblique;
+    padding: 0.5em;
+}
+
+
+
+@media screen and (min-width: 576px) {
+    /* TABLET: */
+
+    /* Haciendo desaparecer al Menú, quitando el botón desplegable */
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .iconoMenu {
+        display: none;
+    }
+
+    .opcionMenu {
+        display: block;
+        font-size: 1.9vw;
+    }
+
+
+    /* Cajas de los Número */
+    main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pestanas {
+        column-count: 6;
+        width: 15%;
+        position: relative;
+        height: 270px;
+        align-items: center;
+    }
+
+    /***** Forma de "bocadillo:" ******/
+    .pestana1::before {
+        border: 25px solid #f07b2b;
+        border-left-color: transparent;
+        border-bottom-color: transparent;
+        border-right-color: transparent;
+        bottom: 200px;
+        right: -48px;
+        transform: rotate(-90deg);
+    }
+
+
+    /* Cajas de los Números en Vertical */
+    .tituloNumero {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        padding-right: 0px;
+        position: absolute;
+        top: 25px;
+        right: 35%;
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .numero {
+        width: 100%;
+        padding-left: 0px;
+        text-align: center;
+        align-self: flex-end;
+        padding-bottom: 5px;
+    }
+
+
+    /* Parte inferior */
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .cuadrados {
+        width: 49.5%;
+    }
+}
+
+
+
+@media screen and (min-width: 992px) {
+
+    /* ESCRITORIO: */
+
+    /* Pestaña de los Núneros */
+    .pestanas {
+        height: 350px;
+        width: 10%;
+    }
+
+    .pestana1::before {
+        border: 30px solid #f07b2b;
+        border-left-color: transparent;
+        border-bottom-color: transparent;
+        border-right-color: transparent;
+        bottom: 270px;
+        right: -50%;
+        transform: rotate(-90deg);
+    }
+
+    .tituloNumero {
+        font-size: 25px;
+    }
+
+
+    /* Parte inferior */
+    footer {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    footer>div {
+        margin: 5px;
+    }
+
+    .cuadrados>p {
+        padding: 1em;
+    }
+
+    .cuadrados {
+        width: 24.5%;
+        margin: 0px;
+    }
+}
+
+
+
+
+
+/* © Sergio Bejarano Arroyo */
+/*** ORIGINAL: 347 LÍNEAS ***/

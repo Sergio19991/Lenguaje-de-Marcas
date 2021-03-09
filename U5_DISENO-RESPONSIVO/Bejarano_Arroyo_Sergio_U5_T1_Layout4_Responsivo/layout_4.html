@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bizz.consulting</title>
+
+    <!-- Link del CSS: -->
+    <link rel="stylesheet" href="css/layout_4.css" />
+
+    <!-- Librería para los Iconos ("<i>"): -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Animación para el Botón Desplegable: -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <p><span class="azul">Bizz</span><span class="gris">.</span><span class="negro">consulting</span></p>
+            <nav>
+                <div class="iconoMenu">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div class="opcionMenu">Home</div>
+                <div class="opcionMenu">Investments</div>
+                <div class="opcionMenu">Finance</div>
+                <div class="opcionMenu">Support</div>
+                <div class="opcionMenu">Clients</div>
+            </nav>
+        </header>
+        <main>
+            <div class="pestana1 pestanas">
+                <p class="numero">1</p>
+                <p class="tituloNumero">Welcome</p>
+            </div>
+            <div class="imagen">
+                <img src="img/portada.png" />
+            </div>
+            <div class="pestana2 pestanas">
+                <p class="numero">2</p>
+                <p class="tituloNumero">Investiments</p>
+            </div>
+            <div class="pestana3 pestanas">
+                <p class="numero">3</p>
+                <p class="tituloNumero">Corporate finance</p>
+            </div>
+            <div class="pestana4 pestanas">
+                <p class="numero">4</p>
+                <p class="tituloNumero">New markets</p>
+            </div>
+            <div class="pestana5 pestanas">
+                <p class="numero">5</p>
+                <p class="tituloNumero">Financing technology</p>
+            </div>
+        </main>
+        <footer>
+            <div class="cuadrados">
+                <div class="tituloCuadrado">
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                    <p>Solutions</p>
+                </div>
+                <p>There are many variations of passages of Lorem ipsum available, but the majority have suffered</p>
+            </div>
+            <div class="cuadrados">
+                <div class="tituloCuadrado">
+                    <i class="fa fa-bullseye" aria-hidden="true"></i>
+                    <p>Investments</p>
+                </div>
+                <p>There are many variations of passages of Lorem ipsum available, but the majority have suffered</p>
+            </div>
+            <div class="cuadrados">
+                <div class="tituloCuadrado">
+                    <i class="fa fa-refresh" aria-hidden="true"></i>
+                    <p>Financing</p>
+                </div>
+                <p>There are many variations of passages of Lorem ipsum available, but the majority have suffered</p>
+            </div>
+            <div class="cuadrados">
+                <div class="tituloCuadrado">
+                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                    <p>Marketing</p>
+                </div>
+                <p>There are many variations of passages of Lorem ipsum available, but the majority have suffered</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- ANIMACIÓN BOTÓN DESPLEGABLE: -->
+    <script>
+        $(function () {
+            $(".iconoMenu").click(function () {
+                $(".opcionMenu").toggle();
+            });
+            $(window).resize(function () {
+                var anchura = $(this).width();
+                if (anchura > 576) {
+                    $(".opcionMenu").show();
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+<!-- © Sergio Bejarano Arroyo -->
