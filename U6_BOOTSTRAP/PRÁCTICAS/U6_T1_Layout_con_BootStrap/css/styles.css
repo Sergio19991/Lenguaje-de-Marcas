@@ -1,0 +1,167 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clasePropia__parteAzul {
+    color: #1b8fb3;
+    font-style: oblique;
+}
+
+.clasePropia__parteGris {
+    color: #9c9c9c;
+}
+
+.clasePropia__contenidoCentral {
+    background-color: #ededed;
+}
+
+.clasePropia__Uno {
+    background-color: #f07b2b;
+}
+
+.clasePropia__Dos {
+    background-color: #efaa28;
+}
+
+.clasePropia__Tres {
+    background-color: #ebd619;
+}
+
+.clasePropia__Cuatro {
+    background-color: #8bc122;
+}
+
+.clasePropia__Cinco {
+    background-color: #5f8e00;
+}
+
+.clasePropia__cuadrados {
+    background-color: #ededed;
+}
+
+.clasePropia__tituloCuadrado {
+    border-bottom: 1px solid #979797;
+}
+
+a span {
+    font-size: 30px;
+}
+
+.clasePropia__numeros {
+    font-size: 25px;
+}
+
+.clasePropia__tituloNumeros {
+    font-size: 20px;
+}
+
+.clasePropia__tituloCuadrado>i {
+    color: #5e5e5e;
+}
+
+.clasePropia__tituloCuadrado>p {
+    font-style: oblique;
+}
+
+.clasePropia__tituloCuadrado>p,
+.clasePropia__tituloCuadrado>i {
+    font-size: 25px;
+}
+
+.clasePropia_opcionMenuDesplegable {
+    font-size: 25;
+}
+
+#borderBoton {
+    border: 0px solid #000000;
+}
+
+#botonMenu {
+    color: #1b8fb3;
+    font-size: 18px;
+}
+
+nav.navbar.navbar-light .navbar-nav li.nav-item>a.nav-link {
+    color: #5e5e5e;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+/*.container-fluid > nav[class="navbar navbar-expand-lg navbar-light"] > #navbarSupportedContent > .clasePropia__opcionMenu {
+    color:red;
+    font-size: 30px;
+}
+
+.clasePropia__opcionMenu {
+    color: red;
+    font-size: 30px;
+}*/
+
+
+
+@media screen and (min-width: 576px) {
+    .clasePropia__contenidoCentral>div {
+        height: 300px;
+        position: relative;
+    }
+
+    /** REVISAR **/
+    .clasePropia__tituloNumeros {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        position: absolute;
+        top: 25px;
+        right: 35%;
+        text-align: center;
+    }
+
+    .clasePropia__numeros {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+
+@media screen and (min-width: 992px) {
+
+    .clasePropia__parteAzul,
+    .clasePropia__parteGris,
+    .clasePropia__parteNegra {
+        font-size: 50px;
+    }
+
+    .clasePropia__contenidoCentral>div {
+        height: 550px;
+    }
+
+    .clasePropia__tituloNumeros {
+        font-size: 30px;
+    }
+
+    .clasePropia__numeros {
+        font-size: 45px;
+    }
+
+    .clasePropia__tituloCuadrado>p,
+    .clasePropia__tituloCuadrado>i {
+        font-size: 35px;
+    }
+
+    .clasePropia__textoCuadrado {
+        font-size: 24px;
+    }
+
+    .clasePropia__tituloCuadrado {
+        border-bottom: 2px solid #979797;
+    }
+}
+
+
+
+
+
+/* © Sergio Bejarano Arroyo */
