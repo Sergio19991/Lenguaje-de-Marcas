@@ -1,0 +1,22 @@
+/// Función que devuelve el Color de Fondo de las Columnas dependiendo de si es Par o Impar.
+/// @parameter {integer} $col-number - Número de la Columna.
+/// @return {color}
+/// @group tablas
+@function colum-color($col-number) {
+    @if ($col-number%2==0) {
+        @return $color-col-pares;
+    }
+
+    @else {
+        @return $color-col-impares;
+    }
+}
+
+
+/// Función que devuelve la Anchura correspondiente al Elemento de la Maquetación.
+/// @parameter {integer} $i - Número de Casillas en el Ancho de la Fila que va a ocupar.
+/// @return {integer} - El Porcentaje (sin el Símbolo %), del Ancho que re corresponde al Elemento.
+/// @group layout
+@function anchura_col($i) {
+    @return (100 / $num_elementos) * $i;
+}

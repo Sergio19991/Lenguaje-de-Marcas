@@ -1,0 +1,35 @@
+/* Estilos para el Contenedor General de mi Página: */
+
+$main-container-width: 80%;
+
+.container {
+    width: $main-container-width;
+    margin: 0 auto;
+}
+
+
+/// Ancho de los Bordes.
+/// @group cards
+$border-width: 0.1rem;
+
+/// Estilo de los Bordes.
+/// @group cards
+$border-style: "solid";
+
+
+/// Border de Redondeado pequeño para los Elementos.
+/// @group dimensiones
+$border-radius-small: 0.2rem;
+
+/// Borde de Redondeado Mediano para los Elementos.
+/// @group dimensiones
+$border-radius: 1rem;
+
+/// Borde de Redondeado Mediano para los Elementos.
+/// @group dimensiones
+$border-radius-big: 2rem;
+
+
+/// Valor del Radio para Redondear los Botones.
+/// @group botones
+$btn-border-radius: 0.4rem;

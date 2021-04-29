@@ -1,0 +1,55 @@
+//// @author Sergio Bejarano Arroyo @Sergio19991
+
+// Paletas de colores básica
+
+//Colores Generales:
+
+/// Color de Fondo.
+/// @group colores
+$color-background: #ffffff;
+
+/// Color de la Fuente.
+/// @group colores
+$color-base: #333333;
+
+
+//Colores de la Barra del Menú:
+/// Color de Fondo de la Barra del Menú.
+/// @group menu
+$navbar-background-color: rgb(155, 111, 145);
+
+/// COlor del Texto de los Elementos de la Barra del Menú al pasar el Ratón sobre ellos.
+/// @group menu
+$navbar-color-hover: $color-background;
+
+/// Colores del Borde.
+/// @group cards
+$border-color: $color-base;
+
+/// Colores para los Botones de Error.
+/// @group botones
+$color-error: #ff0000;
+
+/// Colores para los Botones de Warning
+/// @group botones
+$color-warning: #ffee00;
+
+/// Colores para los Botones de Aceptación.
+/// @group botones
+$color-accepted: #55ff00;
+
+/// Colores para los Botnoes Normales
+/// @group botones
+$color-normal: #002fff;
+
+/// Colores para la Sombra de los Botones
+/// @group botones
+$color-shadow: #888;
+
+/// colores para las Columnas Pares de las Tablas.
+/// @group tablas
+$color-col-pares: #cccccc;
+
+/// Colores para las Columnas Impares de las Tablas.
+/// @group tablas
+$color-col-impares: #888888;

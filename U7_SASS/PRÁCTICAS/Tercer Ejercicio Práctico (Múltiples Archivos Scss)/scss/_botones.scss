@@ -1,0 +1,31 @@
+/// Mapa del que cogeremos elos Nombres para interpolarlos, y valores de los Colores.
+/// @group botones
+$btn-colors: ("error": $color-error,
+    "warning": $color-warning,
+    "accepted": $color-accepted,
+    "normal": $color-normal);
+
+//Elemento para el Botón en General:
+.btn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: $border-radius;
+    padding: 0.5rem;
+
+    &:hover {
+        box-shadow: $border-radius/2 $border-radius/2 $color-shadow;
+    }
+
+    &:active {
+        color: #ffffff;
+    }
+}
+
+//Clase adicional que le da Color.
+@each $k,
+$v in $btn-colors {
+    .btn-#{$k} {
+        @include gradient-x($v, $color-base);
+    }
+}

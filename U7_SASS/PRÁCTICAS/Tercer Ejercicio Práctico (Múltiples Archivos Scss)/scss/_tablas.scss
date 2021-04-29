@@ -1,0 +1,28 @@
+//Estilos generales para la Tabla.
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+    th,
+    td {
+        border: 1px solid #000000;
+        padding: 1rem;
+    }
+}
+
+
+//Establezco el número máximo de Columnas:
+
+/// Columna de Inicio para las Tablas.
+/// group tablas
+$inicio: 1;
+
+/// Columna de finalización para las Tablas.
+/// @group tablas
+$fin: 10;
+
+@for $num from $inicio to $fin {
+    tbody tr td:nth-child(#{$num}) {
+        background-color: colum-color($num);
+    }
+}
