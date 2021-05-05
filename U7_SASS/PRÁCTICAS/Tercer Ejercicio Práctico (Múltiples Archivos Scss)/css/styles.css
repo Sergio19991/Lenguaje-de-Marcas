@@ -1,7 +1,6 @@
 @charset "UTF-8";
 @import "vendors/normalize.css";
 @import "vendors/font-awesome.min.css";
-
 .text-center {
   text-align: center;
 }
@@ -43,35 +42,35 @@
   flex-direction: row;
 }
 
-.row>.col-1 {
+.row > .col-1 {
   width: 12.5%;
 }
 
-.row>.col-2 {
+.row > .col-2 {
   width: 25%;
 }
 
-.row>.col-3 {
+.row > .col-3 {
   width: 37.5%;
 }
 
-.row>.col-4 {
+.row > .col-4 {
   width: 50%;
 }
 
-.row>.col-5 {
+.row > .col-5 {
   width: 62.5%;
 }
 
-.row>.col-6 {
+.row > .col-6 {
   width: 75%;
 }
 
-.row>.col-7 {
+.row > .col-7 {
   width: 87.5%;
 }
 
-.row>.col-8 {
+.row > .col-8 {
   width: 100%;
 }
 
@@ -82,11 +81,9 @@
   border-radius: 1rem;
   padding: 0.5rem;
 }
-
 .btn:hover {
   box-shadow: 0.5rem 0.5rem #888;
 }
-
 .btn:active {
   color: #ffffff;
 }
@@ -111,7 +108,6 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
-
 table th,
 table td {
   border: 1px solid #000000;
@@ -159,22 +155,18 @@ nav {
   background-color: #9b6f91;
   padding: 0.2rem;
 }
-
 nav ul li {
   display: inline-block;
   padding-left: 1rem;
   padding-right: 1rem;
 }
-
 nav ul li.active {
   color: #ffffff;
   font-weight: bolder;
 }
-
 nav ul li:hover {
   color: #ffffff;
 }
-
 nav ul li a {
   text-decoration: none;
 }
@@ -183,17 +175,14 @@ figure.card {
   border: 0.1rem solid #333333;
   border-radius: 1rem;
 }
-
 figure.card img {
   border-radius: 2rem;
   width: 100%;
 }
-
 figure.card img:hover {
   transition: linear 3s;
   transform: rotate(360deg);
 }
-
 figure.card figcaption {
   font-size: 0.8rem;
   margin: 0.5rem;
@@ -201,9 +190,3 @@ figure.card figcaption {
 }
 
 /*# sourceMappingURL=styles.css.map */
-
-
-
-
-
-/* © Sergio Bejarano Arroyo */
