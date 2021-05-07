@@ -1,0 +1,7 @@
+/// Función que recibe un enterno como paráemtro y devuelve el color que se encientra en esa posición en la lista de colores que habremos definico en el partial vars.
+/// @parameter {integer} $numeroColor Número del Color
+@use "sass:list";
+
+@function colorSectionTitle($numeroColor) {
+  @return list.nth($lista-colores, $numeroColor)
+}

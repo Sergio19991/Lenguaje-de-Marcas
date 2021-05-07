@@ -1,0 +1,33 @@
+/* Usando Anidamiendo para crear la Hoja de Estilos para las Secciones: */
+div.section {
+    .section__title {
+        border-bottom: $bordeGrueso;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .name {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .section__list-item {
+        display: flex;
+    }
+
+    .left {
+        width: 50%;
+    }
+
+    .right {
+        width: 50%;
+    }
+
+    .section__title-3 {
+        .section__list-item {
+            .name {
+                width: 100%;
+            }
+        }
+    }
+}

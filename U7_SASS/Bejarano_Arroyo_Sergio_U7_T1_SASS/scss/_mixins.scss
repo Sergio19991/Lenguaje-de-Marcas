@@ -1,0 +1,22 @@
+/// Mixin que pone todos los márgenes a 0
+/// @group layout
+@mixin reset() {
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0px;
+    }
+}
+
+/// Mixin al que se le pasa la anchura y el margen como parametro y pones estos dos valores como margen y anchura
+/// @parameter {margen} $margen
+/// @parameter {ancho} $anchura
+@mixin centrado($margen, $anchura) {
+    margin: $margen auto;
+    width: $anchura;
+}

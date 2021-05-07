@@ -1,0 +1,23 @@
+/// Hacemos la llamada al mixin que permitirá resetar los márgenes
+@include reset();
+
+* {
+    box-sizing: border-box
+}
+
+.container {
+    @include centrado(20px, 90%);
+}
+
+@for $i from 1 to 5 {
+    .section-title-#{$i} {
+        color: colorSectionTitle($i);
+    }
+}
+
+$bordeGrueso: 2px solid black;
+
+.full-name {
+    font-size: 35px;
+    font-weight: bold;
+}

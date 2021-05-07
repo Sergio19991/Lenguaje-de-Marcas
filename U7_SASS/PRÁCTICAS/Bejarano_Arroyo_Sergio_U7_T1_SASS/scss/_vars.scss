@@ -1,0 +1,26 @@
+/// Lista de colores que se utilizarán en el bucle for
+$lista-colores: #ff0000,
+#40ff00,
+#ff6f00,
+#a600ff;
+
+/// Variable booleana que nos permitirá cambiar el estilo del la página entre claro y oscuro
+$light-theme: true;
+$dark-theme: false;
+
+.container {
+    @if $light-theme {
+        background-color: rgba(211, 211, 211, 0.808);
+        color: #000;
+    }
+
+    @else if $dark-theme {
+        background-color: #000;
+        color: #fff;
+    }
+
+    padding: 30px;
+}
+
+/// Esta variable permite dar estilos concretos a los bordes
+$bordeGrueso: 2px solid black;

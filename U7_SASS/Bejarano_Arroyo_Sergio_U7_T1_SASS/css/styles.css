@@ -1,0 +1,70 @@
+.container {
+  background-color: rgba(211, 211, 211, 0.808);
+  color: #000;
+  padding: 30px;
+}
+
+/* Usando Anidamiendo para crear la Hoja de Estilos para las Secciones: */
+div.section .section__title {
+  border-bottom: 2px solid black;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+div.section .name {
+  font-size: 20px;
+  font-weight: bold;
+}
+div.section .section__list-item {
+  display: flex;
+}
+div.section .left {
+  width: 50%;
+}
+div.section .right {
+  width: 50%;
+}
+div.section .section__title-3 .section__list-item .name {
+  width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 20px auto;
+  width: 90%;
+}
+
+.section-title-1 {
+  color: #ff0000;
+}
+
+.section-title-2 {
+  color: #40ff00;
+}
+
+.section-title-3 {
+  color: #ff6f00;
+}
+
+.section-title-4 {
+  color: #a600ff;
+}
+
+.full-name {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */
