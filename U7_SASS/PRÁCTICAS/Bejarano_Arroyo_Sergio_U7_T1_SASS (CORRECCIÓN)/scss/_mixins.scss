@@ -1,0 +1,21 @@
+/// Mixin que pone todos los Márgenes a 0 píxeles
+@mixin reset() {
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0px;
+    }
+}
+
+/// Mixin al que se le pasa la Anchura y el Margen como parámetro y pones estos valores como Margen y Anchura
+/// @parameter {margin} $margin
+/// @parameter {width} $width
+@mixin centrado($margin, $width) {
+    margin: #{$margin}+"px"auto;
+    width: #{$width}+"%";
+}

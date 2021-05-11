@@ -1,0 +1,85 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFF;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  margin: 10px auto;
+  width: 80%;
+  color: #222;
+  background-color: #DDD;
+  padding: 2rem;
+}
+
+.section-title-1 {
+  color: #971818;
+  border-bottom: 1px solid black;
+  margin: 1rem 0;
+}
+
+.section-title-2 {
+  color: #37eb55;
+  border-bottom: 1px solid black;
+  margin: 1rem 0;
+}
+
+.section-title-3 {
+  color: #a86d00;
+  border-bottom: 1px solid black;
+  margin: 1rem 0;
+}
+
+.section-title-4 {
+  color: #3d22d3;
+  border-bottom: 1px solid black;
+  margin: 1rem 0;
+}
+
+.section-title-5 {
+  color: #f1d94f;
+  border-bottom: 1px solid black;
+  margin: 1rem 0;
+}
+
+.full-name {
+  font-size: 3rem;
+}
+
+.separator {
+  border-right: 1px solid black;
+  margin: 0px 0.5rem;
+}
+
+/* Usando Anidamiento para crear la Hoja de Estilos para las Secciones: */
+.section .section__list-item {
+  margin: 1rem 0;
+  overflow-y: auto;
+}
+.section .section__list-item .name {
+  font-weight: bolder;
+}
+.section .section__list-item .right {
+  width: 50%;
+  float: right;
+}
+.section .section__list-item .left {
+  width: 50%;
+  float: left;
+}
+
+/*# sourceMappingURL=styles.css.map */

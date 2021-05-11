@@ -1,0 +1,20 @@
+/// Parámetros que se aplicará al utilizar la Versión Dark o la Versión Light
+$dark-theme: false;
+$color: #222;
+$background-color: #DDD;
+
+/// Color del body que es un poco más claro que el resto
+$body-background: #FFF;
+
+/// Si está activo la Versión Dark, tomará los siguientes valores
+@if $dark-theme {
+    $color: #DDD;
+    $background-color: #222;
+}
+
+/// Lista de Colores que se utilizarán en el Bucle for
+$section-title-color: rgb(151, 24, 24),
+rgb(55, 235, 85),
+rgb(168, 109, 0),
+rgb(61, 34, 211),
+rgb(241, 217, 79);

@@ -1,0 +1,22 @@
+/* Usando Anidamiento para crear la Hoja de Estilos para las Secciones: */
+.section {
+    .section__list-item {
+        margin: 1rem 0;
+        overflow-y: auto;
+
+        .name {
+            font-weight: bolder;
+        }
+
+        .right {
+            width: 50%;
+            float: right;
+        }
+
+        .left {
+            width: 50%;
+            float: left;
+        }
+
+    }
+}

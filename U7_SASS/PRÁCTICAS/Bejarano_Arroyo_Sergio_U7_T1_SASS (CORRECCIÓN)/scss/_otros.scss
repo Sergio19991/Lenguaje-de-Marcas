@@ -1,0 +1,36 @@
+/// Hacemos la llamada al mixin que permitirá resetear los márgenes especificados en éste
+@include reset();
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $body-background;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    @include centrado(10, 80);
+    color: $color;
+    background-color: $background-color;
+    padding: 2rem;
+}
+
+@for $i from 1 through 5 {
+    .section-title-#{$i} {
+        color: colorSectionTitle($i);
+        border-bottom: 1px solid black;
+        margin: 1rem 0;
+    }
+}
+
+.full-name {
+    font-size: 3rem;
+}
+
+.separator {
+    border-right: 1px solid black;
+    margin: 0px 0.5rem;
+}

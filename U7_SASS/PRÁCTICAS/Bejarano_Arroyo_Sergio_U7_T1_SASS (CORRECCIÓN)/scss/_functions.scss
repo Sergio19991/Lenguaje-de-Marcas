@@ -1,0 +1,8 @@
+/// Permitirá utilizar las funciones
+@use "sass:list";
+
+/// Función que recibe un entero como paráemtro y devuelve el color que se encuentra en esa posición en la lista de colores que habremos definico en el partial vars
+/// @parameter {integer} $index
+@function colorSectionTitle($index) {
+    @return list.nth($section-title-color, $index);
+}
