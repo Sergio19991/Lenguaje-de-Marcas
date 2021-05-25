@@ -1,0 +1,83 @@
+@charset "UTF-8";
+.table {
+  padding-left: 250px;
+}
+.table .header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+.table .header p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 50%;
+  font-size: 25px;
+  font-weight: bold;
+}
+.table .row {
+  display: flex;
+  justify-content: space-between;
+}
+.table .row p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 50%;
+  font-size: 15px;
+}
+.table .row p:hover {
+  color: #ff0000;
+  background-color: #0c30ff;
+}
+
+.sidebar {
+  position: left;
+  width: 30%;
+  height: 50px;
+  color: blue;
+  background-color: white;
+  border-color: green;
+}
+.sidebar img {
+  width: 20%;
+  text-align: center;
+}
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.sidebar li:hover {
+  background-color: black;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 90%;
+  color: #222;
+  background-color: #DDD;
+  padding: 1rem;
+}
+
+/* A través de anidamiento defino los diferntes tamaños para cada Elemento */
+header .font-xs {
+  font-size: 16px;
+}
+header .font-s {
+  font-size: 32px;
+}
+header .font-m {
+  font-size: 48px;
+}
+header .font-lg {
+  font-size: 64px;
+}
+header .font-xl {
+  font-size: 80px;
+}
+
+/*# sourceMappingURL=style.css.map */

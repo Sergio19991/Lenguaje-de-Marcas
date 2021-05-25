@@ -1,0 +1,6 @@
+/// Permitirá utilizar las funciones
+@use "sass:list";
+
+/// Recibe un Entero como Parámetro que servirá para definir los Tamaños
+/// @parameter {integer} $index
+@function fontSizes($tam) {}

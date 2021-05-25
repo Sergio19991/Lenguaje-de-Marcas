@@ -1,0 +1,22 @@
+/// Estilos generales para el Sidebar
+.sidebar {
+    /// Incluyo el Mixin que se encargará de darle los Estilos al Sidebar
+    @include placeSideBar(left, 30, 50, blue, white, green);
+
+    img {
+        width: 20%;
+        text-align: center;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0px;
+    }
+
+    li {
+        &:hover {
+            background-color: black;
+            color: white;
+        }
+    }
+}

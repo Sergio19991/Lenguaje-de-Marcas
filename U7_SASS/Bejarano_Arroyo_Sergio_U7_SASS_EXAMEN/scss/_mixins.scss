@@ -1,0 +1,24 @@
+/// Mixin que centrará los elementos utilizando los márgenes superior e inferior y la anchura que le pasemos como parámetro
+/// @parameter {magen} $magen
+/// @parameter {anchura} $anchura
+@mixin centrado($magen, $anchura) {
+    margin-top: #{$magen}+"px";
+    margin-bottom: #{$magen}+"px";
+    width: #{$anchura}+"%";
+}
+
+/// Mixin que colocará la barra lateral a la izquierda o a la derecha, aplicándoles los estilos necesarios (color del borde, la posición, la altura y la anchura, etc...)
+/// @parameter {position} $position
+/// @parameter {width} $width
+/// @parameter {height} $height
+/// @parameter {color} $color
+/// @parameter {background-color} $background-color
+/// @parameter {border-color} $border-color
+@mixin placeSideBar($position, $width, $height, $color, $background-color, $border-color) {
+    position: #{$position};
+    width: #{$width}+"%";
+    height: #{$height}+"px";
+    color: #{$color};
+    background-color: #{$background-color};
+    border-color: #{$border-color};
+}

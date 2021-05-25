@@ -1,0 +1,34 @@
+//Estilos generales para la Tabla.
+.table {
+    padding-left: 250px;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            /// Incluyo el Mixin que se encargará de darle los Estilos correspondientes a los Elementos de la Cabecera de la Tabla
+            @include centrado(5, 50);
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        border-bottom: 1px solid black;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            /// Incluyo el Mixin que se encargará de darle los Estilos correspondientes a los Elementos de las Celdas de la Tabla
+            @include centrado(5, 50);
+            font-size: 15px;
+        }
+
+        p:hover {
+            color: $color-letra-celda;
+            background-color: $color-fondo-celda;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    /// Hacemos uso del siguiente Mixin para el Centrado de los Elementos
+    @include centrado(30, 90);
+    color: $color;
+    background-color: $background-color;
+    padding: 1rem;
+}
+
+/* A través de anidamiento defino los diferntes tamaños para cada Elemento */
+header {
+    .font-xs {
+        font-size: 16px;
+    }
+
+    .font-s {
+        font-size: 32px;
+    }
+
+    .font-m {
+        font-size: 48px;
+    }
+
+    .font-lg {
+        font-size: 64px;
+    }
+
+    .font-xl {
+        font-size: 80px;
+    }
+}
